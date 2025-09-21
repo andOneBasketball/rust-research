@@ -30,7 +30,7 @@ pub fn eat_at_restaurant() {
     // println!("I'd like {} seasonal_fruit please", meal.seasonal_fruit);  // 非pub类型无法访问
 }
 fn main() {
-    eat_at_restaurant()
+    eat_at_restaurant();
 
     let person = SomeModule::Person::King{
         name: String::from("Blue")

@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "projects/basic_grammar",
+    "projects/hello-rust",
+    "projects/mem_opt",
+    "projects/io_opt"
+, "projects/guessing_game"]
+
+# 统一依赖版本管理
+[workspace.dependencies]
+serde = "1.0"
+tokio = { version = "1.33", features = ["full"] }
+ferris-says = "0.3.1"
