@@ -4,7 +4,7 @@ members = [
     "projects/hello-rust",
     "projects/mem_opt",
     "projects/io_opt"
-, "projects/guessing_game"]
+, "projects/guessing_game", "projects/crate_opt", "projects/ch03-common-programming-concepts/list_03_05_control_flow", "projects/ch04-understanding-ownership", "projects/ch05-struct", "projects/ch06-enums-and-pattern", "projects/ch07-crate-and-module", "projects/ch07-04-pub-and-use", "projects/ch08-common-collection", "projects/ch09-error-handing", "projects/ch10-types-traits-lifetimes", "projects/ch11-auto-test"]
 
 # 统一依赖版本管理
 [workspace.dependencies]
