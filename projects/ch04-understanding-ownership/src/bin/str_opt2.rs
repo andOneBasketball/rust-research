@@ -17,7 +17,7 @@ fn main() {
 
     // println!("the first word is: {word}");
 
-    s.clear(); // 错误！
+    //s.clear(); // 错误！
 
     println!("the first word is: {word}");
 }

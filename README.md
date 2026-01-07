@@ -12,6 +12,7 @@ cargo clean
 cargo new restaurant --lib
 
 cargo run --bin hello
+cargo run --bin basic_grammar
 RUST_BACKTRACE=1 cargo run
 
 rustc hello.rs

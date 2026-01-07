@@ -1,6 +1,3 @@
-mod lib1;
-mod lib2;
-
 fn main() {
     println!("Hello, world!");
 }
